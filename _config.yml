@@ -1,8 +1,20 @@
 title: "Tomb Raider Archive"
-description: "A Tomb Raider archive website built using the Jekyll minimal mistakes theme."
-baseurl: ""
-url: "https://tombraiderarchives.github.io/tombraiderarchive"
+description: "Welcome to the Tomb Raider Archive!"
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+
+# Minimal Mistakes settings
+minimal_mistakes_skin: "default"
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+
+# Author
+author:
+  name: "Tomb Raider Archive"
