@@ -4,6 +4,7 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Minimal Mistakes settings
 minimal_mistakes_skin: "default"
@@ -14,6 +15,12 @@ nav:
     url: /
   - title: "About"
     url: /about/
+  - title: "Games"
+    url: /games/
+  - title: "Characters"
+    url: /characters/
+  - title: "Contact"
+    url: /contact/
 
 # Author
 author:
